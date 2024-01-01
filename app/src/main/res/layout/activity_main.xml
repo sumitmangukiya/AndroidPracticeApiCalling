@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="6dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/json_array_request"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_margin="6dp"
+                    android:background="@drawable/bg_button"
+                    android:gravity="center"
+                    android:text="Json Array Request"
+                    android:textColor="@color/white"
+                    android:textSize="16dp" />
+
+                <View
+                    android:id="@+id/shine"
+                    android:layout_width="30dp"
+                    android:layout_height="70dp"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/bg_shine"
+                    android:rotation="20" />
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:id="@+id/gson_array_request"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_margin="6dp"
+                android:background="@drawable/bg_button"
+                android:gravity="center"
+                android:text="Gson Array Request"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/gson_object_request"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_margin="6dp"
+                android:background="@drawable/bg_button"
+                android:gravity="center"
+                android:text="Gson Object Request"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+
+            <TextView
+                android:id="@+id/retrofit_request"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_margin="6dp"
+                android:background="@drawable/bg_button"
+                android:gravity="center"
+                android:text="Retrofit Request"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+
+            <TextView
+                android:id="@+id/https_request"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_margin="6dp"
+                android:background="@drawable/bg_button"
+                android:gravity="center"
+                android:text="Https Request"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/retrofit_post_request"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_margin="6dp"
+                android:background="@drawable/bg_button"
+                android:gravity="center"
+                android:text="Retrofit Post Request"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/tv_show_request"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_margin="6dp"
+                android:background="@drawable/bg_button"
+                android:gravity="center"
+                android:text="Tv Show Api"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+</LinearLayout>

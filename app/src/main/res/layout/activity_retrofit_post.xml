@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="6dp"
+    tools:context=".Post.RetrofitPostActivity">
+
+    <EditText
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:background="@drawable/bg_button"
+        android:backgroundTint="#4D918A8A"
+        android:hint="Enter Name"
+        android:padding="20dp"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/txtJob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:background="@drawable/bg_button"
+        android:backgroundTint="#4D918A8A"
+        android:hint="Enter Job"
+        android:padding="20dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/btnPostData"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_margin="6dp"
+        android:background="@drawable/bg_button"
+        android:gravity="center"
+        android:paddingHorizontal="50dp"
+        android:text="Send POST Request"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:padding="20dp"
+        android:text=": Output :"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/lblOutput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:padding="10dp"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="16dp" />
+
+</LinearLayout>
